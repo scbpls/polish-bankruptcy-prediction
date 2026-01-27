@@ -2,14 +2,14 @@
 
 ## 1. Skład grupy i podział zadań
 
-- **Jakub Marciniak:**
+- **Adam Łuczka:**
   - Pozyskanie danych ze źródła i ich unifikacja.
   - Eksploracyjna analiza danych (EDA) - analiza rozkładów zmiennych, badanie korelacji oraz identyfikacja braków danych.
   - Preprocessing - implementacja potoku przetwarzania (imputacja brakujących wartości, standaryzacja cech).
   - Redukcja wymiarowości - zastosowanie analizy głównych składowych (PCA) do wizualizacji danych i selekcji cech.
   - Budowa i ewaluacja modelu bazowego.
 
-- **Adam Łuczka:**
+- **Jakub Marciniak:**
   - Implementacja strategii radzenia z niezbalansowanymi danymi.
   - Budowa i optymalizacja zaawansowanych modeli zespołowych - lasy losowe oraz XGBoost.
   - Konfiguracja środowiska Weights & Biases (WandB) do śledzenia eksperymentów i logowania wyników.
