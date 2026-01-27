@@ -1,7 +1,10 @@
+ipykernel
 pandas
 numpy
 matplotlib
 seaborn
+wandb
 scipy
+python-dotenv
 scikit-learn
-ipykernel
+xgboost
