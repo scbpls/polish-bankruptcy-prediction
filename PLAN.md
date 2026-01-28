@@ -1,4 +1,4 @@
-# Temat: Predykcja upadłości polskich przedsiębiorstw na podstawie wskaźników finansowych
+# Predykcja upadłości polskich przedsiębiorstw
 
 ## 1. Skład grupy i podział zadań
 

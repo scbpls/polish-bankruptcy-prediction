@@ -1,0 +1,6 @@
+{
+    "model_name": "XGBoost_Tuned",
+    "optimal_threshold": 0.018034685403108597,
+    "target_metric": "Recall",
+    "year": 3
+}
