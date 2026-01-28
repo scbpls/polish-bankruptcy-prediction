@@ -37,10 +37,10 @@ Do realizacji projektu wykorzystany zostanie zbiór danych **Polish Companies Ba
 ### Lista metod
 
 1.  **Inżynieria cech (feature engineering):** Zastosowanie metod imputacji (uzupełnianie braków danych medianą lub metodą k-NN) oraz skalowania (StandardScaler), co jest niezbędne dla modeli liniowych i PCA.
-2.  **Uczenie nienadzorowane:** Wykorzystanie algorytmu **PCA (Principal Component Analysis)** w celu redukcji 64 wymiarów do mniejszej liczby głównych składowych oraz wizualizacji separacji klas w przestrzeni 2D/3D.
-3.  **Uczenie nadzorowane:**
-    - **Regresja logistyczna:** Jako model referencyjny, pozwalający ocenić liniowy podział danych.
-    - **Lasy losowe:** Jako główny model predykcyjny, odporny na szum i zdolny do modelowania nieliniowych zależności. Wykorzystany zostanie również do oceny ważności poszczególnych wskaźników finansowych.
+2.  **Uczenie nienadzorowane (unsupervised learning):** Wykorzystanie algorytmu **PCA (Principal Component Analysis)** w celu redukcji 64 wymiarów do mniejszej liczby głównych składowych oraz wizualizacji separacji klas w przestrzeni 2D/3D.
+3.  **Uczenie nadzorowane (supervised learning):**
+    - **Regresja logistyczna (logistic regression):** Jako model referencyjny, pozwalający ocenić liniowy podział danych.
+    - **Lasy losowe (random forests):** Jako główny model predykcyjny, odporny na szum i zdolny do modelowania nieliniowych zależności. Wykorzystany zostanie również do oceny ważności poszczególnych wskaźników finansowych.
     - **Extreme Gradient Boosting (XGBoost):** Jako nowoczesna metoda dla danych tabelarycznych.
 
 ### Opis miar do oceny jakości
@@ -48,7 +48,7 @@ Do realizacji projektu wykorzystany zostanie zbiór danych **Polish Companies Ba
 Ze względu na specyfikę problemu (dane niezbalansowane), standardowa metryka _dokładność_ (accuracy) nie będzie brana pod uwagę jako główne kryterium oceny. Ocena modeli oparta zostanie na:
 
 - **Czułość (recall):** Kluczowa miara w projekcie. Zależy nam na maksymalizacji wykrywalności bankrutów (minimalizacja błędu False Negative), nawet kosztem częstszych fałszywych alarmów.
-- **Pole pod krzywą ROC (ROC-AUC):** Miara globalnej zdolności modelu do rozróżniania klas przy różnych progach decyzyjnych.
+- **Pole pod krzywą ROC (ROC AUC):** Miara globalnej zdolności modelu do rozróżniania klas przy różnych progach decyzyjnych.
 - **Miara F1 (F1 Score):** Średnia harmoniczna precyzji i czułości.
 - **Macierz pomyłek (confusion matrix):** Do wizualizacji błędów I i II rodzaju.
 
