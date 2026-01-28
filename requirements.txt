@@ -4,6 +4,7 @@ numpy
 matplotlib
 seaborn
 wandb
+joblib
 scipy
 python-dotenv
 scikit-learn
