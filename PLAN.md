@@ -4,14 +4,14 @@
 
 - **Adam Łuczka:**
   - Pozyskanie danych ze źródła i ich unifikacja.
-  - Eksploracyjna analiza danych (EDA) - analiza rozkładów zmiennych, badanie korelacji oraz identyfikacja braków danych.
-  - Przetworzenie danych - implementacja potoku przetwarzania (imputacja brakujących wartości, standaryzacja cech).
-  - Redukcja wymiarowości - zastosowanie analizy głównych składowych (PCA) do wizualizacji danych i selekcji cech.
+  - Eksploracyjna analiza danych (EDA): Analiza rozkładów zmiennych, badanie korelacji oraz identyfikacja braków danych.
+  - Przetworzenie danych: Implementacja potoku przetwarzania (imputacja brakujących wartości, standaryzacja cech).
+  - Redukcja wymiarowości: Zastosowanie analizy głównych składowych (PCA) do wizualizacji danych i selekcji cech.
   - Budowa i ewaluacja modelu bazowego.
 
 - **Jakub Marciniak:**
   - Implementacja strategii radzenia z niezbalansowanymi danymi.
-  - Budowa i optymalizacja zaawansowanych modeli zespołowych - lasy losowe oraz XGBoost.
+  - Budowa i optymalizacja zaawansowanych modeli zespołowych: Lasy losowy oraz XGBoost.
   - Konfiguracja środowiska Weights & Biases (WandB) do śledzenia eksperymentów i logowania wyników.
   - Analiza porównawcza modeli, badanie istotności cech i przygotowanie raportu końcowego.
 
